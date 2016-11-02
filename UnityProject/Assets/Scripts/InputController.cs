@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿using System.Collections.Generic;
+using UnityEngine;
 
 public class InputController : MonoBehaviour
 {
@@ -7,5 +8,11 @@ public class InputController : MonoBehaviour
 	private void Awake()
 	{
 		Instance = this;
+		
+	}
+
+	void Update()
+	{
+
 	}
 }
